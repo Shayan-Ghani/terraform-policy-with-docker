@@ -34,6 +34,6 @@ $ pip install -r ./requirements.txt
 ```
 **Last step : Run the test script**
 ```
-python3 pac_tests.py
+$ python3 pac_tests.py
 ```
-Find out more about [Tf2 project ](https://tf2project.io/)
+Find out more about [Tf2 project ](https://tf2project.io/).
