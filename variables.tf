@@ -4,11 +4,12 @@ variable "image_name" {
 }
 
 variable "container_name" {
-  default = {
-    "nginx02" : "nginx2"
-    "nginx03" : "nginx3"
-    "nginx04" : "nginx4"
-    "nginx05" : "nginx5"
-  }
+  default = [
+    "nginx02",
+    "nginx03",
+    "nginx04",
+    "nginx05"
+  ]
+
 }
 
