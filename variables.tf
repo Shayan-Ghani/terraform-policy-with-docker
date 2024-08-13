@@ -4,6 +4,7 @@ variable "image_name" {
 }
 
 variable "container_name" {
+  type = list(string)
   default = [
     "nginx02",
     "nginx03",
